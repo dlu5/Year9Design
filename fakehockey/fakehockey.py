@@ -11,7 +11,7 @@ def saveList():
     myfile = open("myplayers.txt", "w")
     for player in lst:
         myfile.write(player + "\n")
-    myfile.close()b
+    myfile.close()
     messagebox.showinfo("myplayers.txt", "Players saved to disk")
     
 def saveasList():
